@@ -1,0 +1,91 @@
+/* General Body Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: #f0f3bd;
+    background-color: #05668d;
+    transition: background 0.3s ease-in-out;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Section Styles */
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.content {
+    background-color: #05668d;
+    text-align: center;
+    position: relative;
+}
+
+.content h1 {
+    color: #f0f3bd;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    color: #f0f3bd;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Card and Form Styles */
+.card {
+    background-color: #22577a;
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #f9f6f6;
+}
+
+input, select, button, textarea {
+    margin-bottom: 15px;
+    padding: 12px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #02c39a;
+    color: #05668d;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #05668d;
+    padding: 20px;
+    text-align: center;
+    color: #f0f3bd;
+}
